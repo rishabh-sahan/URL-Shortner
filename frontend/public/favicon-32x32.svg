@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="url(#grad)"/>
+
+  <!-- Link icon -->
+  <g fill="white">
+    <!-- Left part of link -->
+    <rect x="6" y="13" width="6" height="6" rx="3" fill="white"/>
+
+    <!-- Right part of link -->
+    <rect x="20" y="13" width="6" height="6" rx="3" fill="white"/>
+
+    <!-- Connecting line -->
+    <rect x="11" y="14.5" width="10" height="3" rx="1.5" fill="white"/>
+
+    <!-- Sparkle top -->
+    <circle cx="11" cy="9" r="1" fill="white" opacity="0.9"/>
+    <circle cx="8" cy="10" r="0.5" fill="white" opacity="0.9"/>
+
+    <!-- Sparkle bottom -->
+    <circle cx="21" cy="23" r="1" fill="white" opacity="0.9"/>
+    <circle cx="24" cy="22" r="0.5" fill="white" opacity="0.9"/>
+  </g>
+</svg>
